@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #0d1a2d;
+  color: white;
+}
+
+.nft-1 {
+  position: relative;
+  margin: 2% auto;
+  width: 25rem;
+  height: 40rem;
+
+  border: 5px solid #15273f;
+  border-radius: 2%;
+  background-color: #15273f;
+}
+
+.nft-name {
+  margin: 0;
+  margin-top: 25px;
+  align-items: flex-start;
+}
+
+.nft-exp {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.card-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-height: 330px;
+  max-width: 400px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-image {
+  border: 1px solid white;
+  border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.creator h5 {
+  font-weight: 200;
+}
+
+.price {
+  color: #03b7b9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price h4 {
+  margin-left: 5px;
+}
+
+.dayLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dayLeft h4 {
+  margin-left: 5px;
+  font-weight: 200;
+}
+
+hr {
+  width: 350px;
+}
